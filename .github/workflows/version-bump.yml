@@ -73,7 +73,7 @@ jobs:
       ########################
 
       ### napi
-      - name: Bump @bitwarden/sdk-napi Version
+      - name: Bump @bayarin/bitwarden-sdk-napi Version
         if: ${{ inputs.project == 'napi' }}
         working-directory: "crates/bitwarden-napi"
         run: |

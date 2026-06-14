@@ -1,3 +1,3 @@
-# `@bitwarden/sdk-napi-linux-arm64-musl`
+# `@bayarin/bitwarden-sdk-napi-linux-arm64-musl`
 
-This is the **aarch64-unknown-linux-musl** binary for `@bitwarden/sdk-napi`
+This is the **aarch64-unknown-linux-musl** binary for `@bayarin/bitwarden-sdk-napi`

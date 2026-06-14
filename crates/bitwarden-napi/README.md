@@ -6,7 +6,7 @@ might be missing some functionality.
 ## Getting started
 
 ```ts
-import { BitwardenClient, ClientSettings, DeviceType, LogLevel } from "@bitwarden/sdk-napi";
+import { BitwardenClient, ClientSettings, DeviceType, LogLevel } from "@bayarin/bitwarden-sdk-napi";
 
 // Optional settings
 const settings: ClientSettings = {
