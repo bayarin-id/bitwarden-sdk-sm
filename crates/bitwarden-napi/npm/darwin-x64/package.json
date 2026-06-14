@@ -1,5 +1,5 @@
 {
-  "name": "@bayarin/bitwarden-sdk-napi-win32-x64-msvc",
+  "name": "@bayarin/bitwarden-sdk-napi-darwin-x64",
   "version": "1.0.1",
   "homepage": "https://github.com/bayarin-id/bitwarden-sdk-sm#readme",
   "bugs": {
@@ -11,15 +11,15 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": "Bitwarden Inc. <hello@bitwarden.com> (https://bitwarden.com)",
-  "main": "bitwarden-sdk-napi.win32-x64-msvc.node",
+  "main": "bitwarden-sdk-napi.darwin-x64.node",
   "files": [
-    "bitwarden-sdk-napi.win32-x64-msvc.node"
+    "bitwarden-sdk-napi.darwin-x64.node"
   ],
   "engines": {
     "node": ">= 10"
   },
   "os": [
-    "win32"
+    "darwin"
   ],
   "cpu": [
     "x64"

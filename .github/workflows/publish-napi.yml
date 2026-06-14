@@ -102,6 +102,7 @@ jobs:
 
           # Download native binaries
           wget "https://github.com/bayarin-id/bitwarden-sdk-sm/releases/download/napi-v${_PKG_VERSION}/bitwarden-sdk-napi.darwin-arm64.node"
+          wget "https://github.com/bayarin-id/bitwarden-sdk-sm/releases/download/napi-v${_PKG_VERSION}/bitwarden-sdk-napi.darwin-x64.node"
           wget "https://github.com/bayarin-id/bitwarden-sdk-sm/releases/download/napi-v${_PKG_VERSION}/bitwarden-sdk-napi.win32-x64-msvc.node"
           wget "https://github.com/bayarin-id/bitwarden-sdk-sm/releases/download/napi-v${_PKG_VERSION}/bitwarden-sdk-napi.linux-x64-gnu.node"
           wget "https://github.com/bayarin-id/bitwarden-sdk-sm/releases/download/napi-v${_PKG_VERSION}/bitwarden-sdk-napi.linux-arm64-gnu.node"

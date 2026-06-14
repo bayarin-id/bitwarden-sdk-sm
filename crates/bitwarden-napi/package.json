@@ -1,6 +1,6 @@
 {
   "name": "@bayarin/bitwarden-sdk-napi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/bayarin-id/bitwarden-sdk-sm#readme",
   "bugs": {
     "url": "https://github.com/bayarin-id/bitwarden-sdk-sm/issues"
@@ -46,6 +46,7 @@
       "additional": [
         "x86_64-pc-windows-msvc",
         "x86_64-unknown-linux-gnu",
+        "x86_64-apple-darwin",
         "aarch64-apple-darwin",
         "aarch64-unknown-linux-gnu",
         "aarch64-unknown-linux-musl"
