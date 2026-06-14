@@ -1,5 +1,5 @@
-name: Release @bitwarden/sdk-napi
-run-name: Release @bitwarden/sdk-napi ${{ inputs.release_type }}
+name: Release @bayarin/bitwarden-sdk-napi
+run-name: Release @bayarin/bitwarden-sdk-napi ${{ inputs.release_type }}
 
 on:
   workflow_dispatch:
@@ -99,10 +99,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           draft: true
           artifacts: |
-            dist/sdk-napi.darwin-arm64.node
-            dist/sdk-napi.darwin-x64.node
-            dist/sdk-napi.win32-x64-msvc.node
-            dist/sdk-napi.linux-x64-gnu.node
-            dist/sdk-napi.linux-arm64-gnu.node
-            dist/sdk-napi.linux-arm64-musl.node
+            dist/bitwarden-sdk-napi.darwin-arm64.node
+            dist/bitwarden-sdk-napi.darwin-x64.node
+            dist/bitwarden-sdk-napi.win32-x64-msvc.node
+            dist/bitwarden-sdk-napi.linux-x64-gnu.node
+            dist/bitwarden-sdk-napi.linux-arm64-gnu.node
+            dist/bitwarden-sdk-napi.linux-arm64-musl.node
             dist/schemas.ts

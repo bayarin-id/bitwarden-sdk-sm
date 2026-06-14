@@ -1,13 +1,13 @@
 {
-  "name": "@bitwarden/sdk-napi",
+  "name": "@bayarin/bitwarden-sdk-napi",
   "version": "1.0.0",
-  "homepage": "https://github.com/bitwarden/sdk-sm#readme",
+  "homepage": "https://github.com/bayarin-id/bitwarden-sdk-sm#readme",
   "bugs": {
-    "url": "https://github.com/bitwarden/sdk-sm/issues"
+    "url": "https://github.com/bayarin-id/bitwarden-sdk-sm/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitwarden/sdk-sm.git"
+    "url": "git+https://github.com/bayarin-id/bitwarden-sdk-sm.git"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": "Bitwarden Inc. <hello@bitwarden.com> (https://bitwarden.com)",
@@ -40,7 +40,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "napi": {
-    "name": "sdk-napi",
+    "name": "bitwarden-sdk-napi",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",

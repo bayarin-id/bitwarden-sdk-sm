@@ -1,4 +1,4 @@
-name: Build @bitwarden/sdk-napi
+name: Build @bayarin/bitwarden-sdk-napi
 
 on:
   pull_request:
@@ -23,7 +23,7 @@ jobs:
     uses: ./.github/workflows/generate_schemas.yml
 
   build:
-    name: Building @bitwarden/sdk-napi for - ${{ matrix.settings.os }}
+    name: Building @bayarin/bitwarden-sdk-napi for - ${{ matrix.settings.os }}
     runs-on: ${{ matrix.settings.os || 'ubuntu-24.04' }}
     needs: generate_schemas
     strategy:
@@ -72,7 +72,7 @@ jobs:
                   npm ci --no-audit --no-fund &&
                   npx napi build --platform --release --js binding.js --dts binding.d.ts
                 ' &&
-              strip sdk-napi.linux-arm64-musl.node || true
+              strip bitwarden-sdk-napi.linux-arm64-musl.node || true
     steps:
       - name: Checkout repo
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
@@ -113,5 +113,5 @@ jobs:
         uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: sdk-bitwarden-napi-${{ matrix.settings.target }}
-          path: ${{ github.workspace }}/crates/bitwarden-napi/sdk-napi.*.node
+          path: ${{ github.workspace }}/crates/bitwarden-napi/bitwarden-sdk-napi.*.node
           if-no-files-found: error
